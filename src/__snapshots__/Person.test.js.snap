@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests defaults 1`] = `
+Object {
+  "age": 45,
+  "name": "John Smith",
+}
+`;
+
+exports[`tests with name 1`] = `
+Object {
+  "age": 45,
+  "name": "Jane Doe",
+}
+`;
