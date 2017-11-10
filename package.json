@@ -1,0 +1,31 @@
+{
+  "name": "jest-test",
+  "private": true,
+  "version": "1.0.0",
+  "jest": {
+    "rootDir": "src",
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.jsx?$",
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json"
+    ],
+    "setupFiles": [
+      "../testPolyfills.js"
+    ]
+  },
+  "devDependencies": {
+    "babel-jest": "^21.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^21.2.1",
+    "react-test-renderer": "^16.1.0"
+  },
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0"
+  }
+}

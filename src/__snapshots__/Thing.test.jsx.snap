@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests class 1`] = `
+<div
+  className="a class"
+/>
+`;
+
+exports[`tests defaults 1`] = `
+<div
+  className={undefined}
+/>
+`;
