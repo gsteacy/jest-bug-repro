@@ -1,19 +1,13 @@
 {
-  "name": "jest-test",
-  "private": true,
+  "name": "jest-bug-repro",
   "version": "1.0.0",
-  "jest": {
-    "rootDir": "src",
-    "testRegex": "test\\.js$",
-    "moduleFileExtensions": [
-      "js",
-      "json"
-    ]
-  },
-  "devDependencies": {
-    "jest": "^21.2.1"
-  },
   "scripts": {
-    "test": "jest --watch"
-  }
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.4.2"
+  },
+  "dependencies": {}
 }
